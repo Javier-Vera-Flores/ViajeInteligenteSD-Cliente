@@ -26,12 +26,21 @@ footer {
   justify-content: space-around;
   padding: 0px;
   margin-bottom: 0px;
+  text-align: center;
 }
 main {
   background-color: #ffd700;
 }
 /* Estilos para nuestras redes sociales jejeje */
 .redes-sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Estilos para cards de boostrap */
+.card-hoteles {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
