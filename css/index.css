@@ -24,12 +24,13 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 0px;
-  margin-bottom: 0px;
+
   text-align: center;
 }
 main {
   background-color: #ffd700;
+  padding: 30px;
+  margin: 0;
 }
 /* Estilos para nuestras redes sociales jejeje */
 .redes-sociales {
@@ -45,4 +46,11 @@ main {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+/* Estilos para el manejo del DOMMMM */
+#div-main {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3em;
 }
