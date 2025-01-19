@@ -8,9 +8,7 @@ body {
   /* border: solid red; */
   background-color: #d2b48c;
 }
-header {
-  background-color: #228b22;
-}
+
 nav ul li {
   text-decoration: none;
 }
@@ -34,6 +32,16 @@ main {
   padding: 30px;
   margin: 0;
 }
+.color-personalizado {
+  background-color: #1714eb !important;
+}
+
+.color-texto {
+  color: white !important;
+}
+span {
+  background-color: white !important;
+}
 /* Estilos para nuestras redes sociales jejeje */
 .redes-sociales {
   display: flex;
@@ -48,6 +56,7 @@ main {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 10px;
 }
 
 /* Estilos para el manejo del DOMMMM */
