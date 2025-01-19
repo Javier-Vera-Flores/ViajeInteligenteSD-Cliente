@@ -9,40 +9,8 @@ body {
   background-color: #d2b48c;
 }
 
-nav ul li {
-  text-decoration: none;
-}
-.tam-carrousel {
-  max-height: 50vh;
-  overflow: hidden;
-}
-footer {
-  background-color: #87ceeb;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-
-  padding-top: 12px;
-
-  text-align: center;
-}
 main {
   background-color: #ffd700;
   padding: 30px;
   margin: 0;
-}
-
-.color-texto {
-  color: white !important;
-}
-span {
-  background-color: white !important;
-}
-/* Estilos para nuestras redes sociales jejeje */
-.redes-sociales {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
 }

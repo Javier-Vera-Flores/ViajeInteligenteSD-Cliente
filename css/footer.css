@@ -1,0 +1,18 @@
+footer {
+  background-color: #87ceeb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  padding-top: 12px;
+
+  text-align: center;
+}
+
+.redes-sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
