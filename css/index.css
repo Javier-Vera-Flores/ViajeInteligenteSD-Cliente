@@ -25,6 +25,8 @@ footer {
   align-items: center;
   justify-content: space-around;
 
+  padding-top: 12px;
+
   text-align: center;
 }
 main {
@@ -53,4 +55,5 @@ main {
   color: blue;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 3em;
+  text-align: right;
 }

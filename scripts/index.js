@@ -3,6 +3,12 @@ const divMain = document.querySelector("#div-main");
 divMain.innerHTML = "Hola desde el DOM";
 divMain.set;
 const titulo = document.createElement("p");
+const icoMap = document.createElement("img");
+icoMap.src = "https://img.icons8.com/officel/80/america.png";
+icoMap.width = "80";
+icoMap.height = "80";
+icoMap.alt = "america";
+divMain.appendChild(icoMap);
 
 const ObtenerHoraCDMX = () => {
   let fecha = new Date();
