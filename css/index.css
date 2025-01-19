@@ -1,8 +1,29 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
   box-sizing: border-box;
+}
+body {
+  /* border: solid red; */
+  background-color: #d2b48c;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #228b22;
 }
 nav ul li {
   text-decoration: none;
+}
+.tam-carrousel {
+  max-height: 50vh;
+  overflow: hidden;
+}
+footer {
+  background-color: #87ceeb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
